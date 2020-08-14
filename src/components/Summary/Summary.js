@@ -17,7 +17,7 @@ class Summary extends Component {
                   <Row className='projectsTitleMargin'>
                     <Col>
                       <h1 className='countNumber'>
-                        <CountUp start={0} end={100} delay={0}>
+                        <CountUp start={0} end={15} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
                               <span ref={countUpRef} />
@@ -30,7 +30,7 @@ class Summary extends Component {
                     </Col>
                     <Col>
                       <h1 className='countNumber'>
-                        <CountUp start={1} end={35} delay={0}>
+                        <CountUp start={0} end={5} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
                               <span ref={countUpRef} />

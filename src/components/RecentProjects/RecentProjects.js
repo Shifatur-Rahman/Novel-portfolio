@@ -13,7 +13,7 @@ class RecentProjects extends Component {
               <Card className='projectCard'>
                 <Card.Img
                   variant='top'
-                  src='https://blog.touchcoreltd.com/wp-content/uploads/2016/04/bwd-website-design-project-plan-2.png'
+                  src='https://blog.touchcoreltd.com/wp-content/uploads/2016/04/bwd-website-design-project-plan-4.png'
                 />
                 <Card.Body>
                   <Card.Title className='projectsCardTitle'>
